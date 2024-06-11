@@ -1,0 +1,10 @@
+[profile.default]
+src = 'contracts'
+out = 'out'
+solc = '0.8.24'
+evm_version = 'shanghai'
+optimizer = true
+optimizer_runs = 200
+libs = ['node_modules', 'lib']
+test = 'test'
+cache_path  = 'cache_forge'
